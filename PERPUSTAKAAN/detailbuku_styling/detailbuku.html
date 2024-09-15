@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Detail Buku</title>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="scroll-smooth">
+    <!-- Navbar Section Start -->
+    <header class="w-full py-4 md:py-1 fixed top-0 left-0 bg-white">
+      <nav class="container mx-auto px-4 flex justify-between items-center">
+        <!-- Content Left -->
+        <div class="md:py-5 text-3xl font-bold text-lime-500 capitalize">
+          <a href="" class=""
+            ><img src="../public/image/logo/logo 1.png" alt=""
+          /></a>
+        </div>
+
+        <!-- Content Center -->
+        <div class="">
+          <ul class="hidden md:flex items-center gap-2">
+            <li class="group px-3 py-1">
+              <a
+                href=""
+                class="font-normal text-sm lg:text-lg text-slate-800 group-hover:text-main"
+                >Beranda</a
+              >
+            </li>
+            <li class="group px-3 py-1">
+              <a
+                href=""
+                class="font-normal text-sm lg:text-lg text-slate-800 group-hover:text-main"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="group px-3 py-1">
+              <a
+                href=""
+                class="font-normal text-sm lg:text-lg text-slate-800 group-hover:text-main"
+                >Kategori Buku</a
+              >
+            </li>
+            <li class="group px-3 py-1">
+              <a
+                href=""
+                class="font-normal text-sm lg:text-lg text-slate-800 group-hover:text-main"
+                >FAQ</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Nav Content End Start -->
+        <div class="hidden md:flex items-center gap-1">
+          <div class="w-8 h-8">
+            <img
+              src="../public/image/Image Profile.png"
+              alt=""
+              class="w-full h-full"
+            />
+          </div>
+          <p class="font-normal text-sm">Reyhan Fadillah</p>
+          <img src="../public/svg/arrow-down.svg" alt="" class="w-4 h-4" />
+        </div>
+        <!-- Nav Content End End -->
+
+        <!-- Hamburger Menu -->
+
+        <div id="navMobile" class="hidden transition-all duration-300">
+          <ul
+            class="p-5 absolute h-56 right-7 left-24 top-20 inset-0 bg-white capitalize z-50 shadow-lg space-y-2"
+          >
+            <li>
+              <a
+                href=""
+                class="hover:text-lime-500 text-[16px] transition-all duration-300"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="hover:text-lime-500 text-[16px] transition-all duration-300"
+                >Kelas</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="hover:text-lime-500 text-[16px] transition-all duration-300"
+                >Alur Belajar</a
+              >
+            </li>
+            <li>
+              <a
+                href=""
+                class="hover:text-lime-500 text-[16px] transition-all duration-300"
+                >Event</a
+              >
+            </li>
+            <!-- Nav Content End Start -->
+            <div class="flex items-center gap-1 pt-3">
+              <div class="w-8 h-8">
+                <img
+                  src="../public/image/Image Profile.png"
+                  alt=""
+                  class="w-full h-full"
+                />
+              </div>
+              <p class="font-normal text-sm">Reyhan Fadillah</p>
+              <img src="../public/svg/arrow-down.svg" alt="" class="w-4 h-4" />
+            </div>
+            <!-- Nav Content End End -->
+          </ul>
+        </div>
+
+        <div
+          id="menu"
+          class="md:hidden cursor-pointer transition-all duration-300 z-50"
+        >
+          <i class="fa-solid fa-bars text-2xl"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Main Content Detail Buku Section Start -->
+    <section class="pt-28 pb-36">
+      <div class="w-full px-4">
+        <div class="container mx-auto">
+          <div class="grid lg:grid-cols-3 justify-center">
+            <!-- Buku Start -->
+            <div class="mb-2 md:mb-6 lg:mb-0">
+              <div
+                class="w-full mx-auto md:w-[90%] lg:mx-0 xl:w-[393px] xl:h-[520px] rounded-md"
+              >
+                <img
+                  src="../public/image/card buku/1.png"
+                  alt=""
+                  class="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <!-- Buku End -->
+
+            <!-- Title Start -->
+            <div class="lg:col-span-2 lg:ml-20 xl:ml-0">
+              <!-- Judul Buku Start -->
+              <div class="pt-2">
+                <h2 class="text-2xl md:text-[28px] font-bold mb-1 md:mb-2">
+                  Buku Geografis
+                </h2>
+                <p class="font-normal text-sm md:text-lg text-grey mb-6">
+                  Penerbit : Kompas Gramedia
+                </p>
+
+                <p
+                  class="font-normal text-sm md:text-lg text-slate-500 w-full mb-5 md:mb-8"
+                >
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.Lorem Ipsum has been the industry's
+                  standard dummy text ever since the1500s, when an unknown
+                  printer took a galley of type and scrambled it tomake a type
+                  specimen book. It has survived not only five centuries,
+                  butalso the leap into electronic typesetting, remaining
+                  essentially unchanged.It was popularised in the 1960s with the
+                  release of Letraset sheets containingLorem Ipsum passages, and
+                  more recently with desktop publishing softwarelike Aldus
+                  PageMaker including versions of Lorem Ipsum.
+                </p>
+
+                <p
+                  class="font-normal text-sm md:text-lg text-slate-500 mb-4 md:mb-8"
+                >
+                  Buku Tersedia : 32
+                </p>
+
+                <button id="openModal" class="">
+                  <a
+                    href="#"
+                    class="px-8 py-3 rounded-full bg-main text-white text-sm hover:bg-white hover:text-main border hover:border-main transition-all duration-300"
+                    >Pinjam Buku</a
+                  >
+                </button>
+              </div>
+              <!-- Judul Buku End -->
+            </div>
+            <!-- Title End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Main Content Detail Buku Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="pt-10 pb-12">
+      <div class="w-full px-4">
+        <div class="container mx-auto">
+          <div class="flex flex-col md:flex-row gap-8">
+            <!-- Footer Left Start -->
+            <div class="w-full md:w-[40%] mb-6 md:mb-0">
+              <h1 class="font-bold text-2xl md:text-3xl mb-3">PerpusJP1</h1>
+              <p class="font-normal text-slate-500">
+                PerpusJP1 adalah aplikasi perpustakaan online yang beroprasi
+                untuk meminjam buku perpustakaan secara online melalui website
+                agar dapat memudahkan para siswa untuk meminjam buku.
+              </p>
+            </div>
+            <!-- Footer Left End -->
+
+            <!-- Footer Right Start -->
+            <div class="w-full">
+              <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-3">
+                <!-- Content 1 Start -->
+                <div class="w-full mb-6 lg:mb-0">
+                  <h3 class="font-bold text-xl md:text-2xl mb-3">
+                    Ketegori Buku
+                  </h3>
+                  <ul class="space-y-2">
+                    <li class="text-sm text-slate-500 font-normal">
+                      Buku Pelajaran
+                    </li>
+                    <li class="text-sm text-slate-500 font-normal">
+                      Buku Sumber Pendukung
+                    </li>
+                    <li class="text-sm text-slate-500 font-normal">
+                      Buku Literasi
+                    </li>
+                    <li class="text-sm text-slate-500 font-normal">Lainnya</li>
+                  </ul>
+                </div>
+                <!-- Content 1 End -->
+
+                <!-- Content 2 Start -->
+                <div class="w-full mb-6 lg:mb-0">
+                  <h3 class="font-bold text-xl md:text-2xl mb-3">Dukungan</h3>
+                  <ul class="space-y-2">
+                    <li class="text-sm text-slate-500 font-normal">FAQ</li>
+                    <li class="text-sm text-slate-500 font-normal">
+                      Rekomendasi Buku
+                    </li>
+                    <li class="text-sm text-slate-500 font-normal">Lainnya</li>
+                  </ul>
+                </div>
+                <!-- Content 2 End -->
+
+                <!-- Content 3 Start -->
+                <div class="w-full mb-6 lg:mb-0">
+                  <h3 class="font-bold text-xl md:text-2xl mb-3">
+                    Tentang Kami
+                  </h3>
+                  <ul class="space-y-2">
+                    <li class="text-sm text-slate-500 font-normal">
+                      Pinjam Buku
+                    </li>
+                    <li class="text-sm text-slate-500 font-normal">
+                      Lihat Semua Buku
+                    </li>
+                    <li class="text-sm text-slate-500 font-normal">Lainnya</li>
+                  </ul>
+                </div>
+                <!-- Content 3 End -->
+
+                <!-- Content 4 Start -->
+                <div class="w-full mb-6 lg:mb-0">
+                  <h3 class="font-bold text-xl md:text-2xl mb-3">
+                    Sosial Media
+                  </h3>
+                  <ul class="space-y-2">
+                    <li class="text-sm text-slate-500 font-normal">
+                      <i
+                        class="fa-brands fa-instagram text-lg text-red-500 pe-2"
+                      ></i
+                      >Instagram
+                    </li>
+                  </ul>
+                </div>
+                <!-- Content 4 End -->
+              </div>
+            </div>
+            <!-- Footer Right End -->
+          </div>
+
+          <!-- Horizontal Start -->
+          <div class="w-full border border-slate-300 mt-8"></div>
+          <!-- Horizontal End -->
+
+          <!-- Copyright Start -->
+          <div class="mt-3">
+            <div
+              class="flex flex-col md:flex-row gap-4 justify-between items-center"
+            >
+              <p class="font-normal text-sm text-slate-500">
+                © 2022 PerpusJP1. All rights reserved.
+              </p>
+              <p class="font-normal text-sm text-slate-500">Team PerpusJP1</p>
+            </div>
+          </div>
+          <!-- Copyright End -->
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Modal -->
+    <div
+      id="myModal"
+      class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden overflow-y-scroll pt-32 md:pt-96"
+    >
+      <div
+        id="modalContent"
+        class="bg-white rounded-3xl shadow-lg px-6 py-4 w-[90%] md:w-[70%] modal-enter"
+      >
+        <!-- Header Modal Start -->
+        <div class="relative mb-8 md:mb-12">
+          <h2 class="text-lg md:text-2xl font-bold md:text-center">
+            Atur Waktu Peminjaman
+          </h2>
+          <button
+            id="closeModal"
+            class="text-gray-500 hover:text-gray-700 text-2xl md:text-4xl absolute top-0 right-0"
+          >
+            &times;
+          </button>
+        </div>
+        <!-- Header Modal End -->
+
+        <!-- Form Modal Start -->
+        <form method="post">
+          <div class="mb-3 md:mb-6">
+            <label
+              for="name"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >Nama Lengkap</label
+            >
+            <input
+              type="text"
+              id="name"
+              placeholder="Masukkan Nama Lengkap"
+              class="w-full block flex-1 border border-main bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-sm md:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="mb-3 md:mb-6">
+            <label
+              for="name"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >Kelas</label
+            >
+            <input
+              type="text"
+              id="name"
+              placeholder="Kelas..."
+              class="w-full block flex-1 border border-main bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-smmd:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="mb-3 md:mb-6">
+            <label
+              for="name"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >No.Kartu</label
+            >
+            <input
+              type="text"
+              id="name"
+              placeholder="Masukkan No Kartu Anda"
+              class="w-full block flex-1 border border-main bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-sm md:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="mb-3 md:mb-6">
+            <label
+              for="name"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >Judul Buku</label
+            >
+            <input
+              type="text"
+              id="name"
+              placeholder="Masukkan Judul Buku"
+              class="w-full block flex-1 border border-main bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-sm md:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="mb-3 md:mb-6">
+            <label
+              for="jumlah_buku"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >Jumlah Buku</label
+            >
+            <input
+              type="text"
+              id="jumlah_buku"
+              placeholder="Masukkan jumlah buku yang ingin dipinjam"
+              class="w-full block flex-1 border border-slate-400 bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-sm md:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="mb-3 md:mb-6">
+            <label
+              for="tanggal_peminjaman"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >Tanggal Peminjaman</label
+            >
+            <input
+              type="date"
+              id="tanggal_peminjaman"
+              placeholder="mm/dd/yy"
+              class="w-full block flex-1 border border-slate-400 bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-sm md:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="mb-3 md:mb-6">
+            <label
+              for="tanggal_peminjaman"
+              class="block text-lg font-normal text-gray-700 mb-2"
+              >Tanggal Kembalikan</label
+            >
+            <input
+              type="date"
+              id="tanggal_peminjaman"
+              placeholder="mm/dd/yy"
+              class="w-full block flex-1 border border-slate-400 bg-white px-6 py-3 text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-main text-sm md:text-[16px] sm:leading-6 rounded-full"
+            />
+          </div>
+
+          <div class="flex gap-2 items-center">
+            <input
+              type="checkbox"
+              name="remember"
+              id="remember"
+              class="w-5 h-5"
+            />
+            <p class="text-[12px] font-normal md:text-sm">
+              Saya telah membaca dan menyetujui Syarat dan Ketentuan
+            </p>
+          </div>
+
+          <!-- Buttom Form Submit Start -->
+          <div class="flex justify-center mt-6">
+            <button
+              type="submit"
+              class="bg-main text-white px-4 py-2 block w-full rounded-full"
+            >
+              Pinjam Buku
+            </button>
+          </div>
+
+          <!-- Buttom Form Submit End -->
+        </form>
+        <!-- Form Modal End -->
+      </div>
+    </div>
+
+    <!-- Scripts JS Start -->
+    <script>
+      // Navbar Fixed
+      const menu = document.getElementById("menu");
+      const faBars = document.querySelector(".fa-bars");
+      const navMobile = document.getElementById("navMobile");
+
+      menu.addEventListener("click", function () {
+        faBars.classList.toggle("fa-x");
+        navMobile.classList.toggle("hidden");
+      });
+
+      // Modal Start
+      document.addEventListener("DOMContentLoaded", () => {
+        const openModalButton = document.getElementById("openModal");
+        const closeModalButton = document.getElementById("closeModal");
+        const modal = document.getElementById("myModal");
+        const modalContent = document.querySelector(".modal-enter");
+
+        openModalButton.addEventListener("click", () => {
+          modal.classList.remove("hidden");
+          setTimeout(() => {
+            modalContent.classList.add("modal-enter-active");
+          }, 10);
+        });
+
+        closeModalButton.addEventListener("click", () => {
+          modalContent.classList.remove("modal-enter-active");
+          modalContent.classList.add("modal-leave-active");
+          setTimeout(() => {
+            modal.classList.add("hidden");
+            modalContent.classList.remove("modal-leave-active");
+          }, 300);
+        });
+
+        window.addEventListener("click", (event) => {
+          if (event.target === modal) {
+            modalContent.classList.remove("modal-enter-active");
+            modalContent.classList.add("modal-leave-active");
+            setTimeout(() => {
+              modal.classList.add("hidden");
+              modalContent.classList.remove("modal-leave-active");
+            }, 300);
+          }
+        });
+      });
+    </script>
+    <!-- Scripts JS End -->
+  </body>
+</html>
